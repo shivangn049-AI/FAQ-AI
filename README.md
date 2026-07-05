@@ -15,6 +15,12 @@ A simple FAQ chatbot built with Flask and scikit-learn. It uses TF-IDF and cosin
    ```
 4. Open http://127.0.0.1:5000 in your browser.
 
+## Deployment
+
+For Render or similar platforms, use:
+- Build Command: pip install -r requirements.txt
+- Start Command: gunicorn app:app
+
 ## Project structure
 
 - app.py: Flask routes and API
