@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ Bot — cosine-similarity chatbot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="brand-mark">⟐</span>
+        <div>
+          <div class="brand-name">FAQ BOT</div>
+          <div class="brand-sub">tf-idf · cosine match</div>
+        </div>
+      </div>
+      <div class="sidebar-label">Knowledge base</div>
+      <ul class="faq-list" id="faqList"></ul>
+      <div class="sidebar-footer">
+        <div class="threshold-label">Match threshold</div>
+        <div class="threshold-value" id="thresholdValue">0.15 cosine</div>
+      </div>
+    </aside>
+
+    <main class="chat">
+      <header class="chat-header">
+        <div>
+          <div class="chat-title">Ask a question</div>
+          <div class="chat-subtitle">Matched against the knowledge base in real time — powered by your Flask API</div>
+        </div>
+        <div class="status-dot" title="Engine ready"></div>
+      </header>
+
+      <div class="messages" id="messages">
+        <div class="msg bot">
+          <div class="msg-bubble">
+            Hi — ask me anything about billing, support, accounts, or plans. I’ll match your question to the closest FAQ.
+          </div>
+        </div>
+      </div>
+
+      <form class="composer" id="composer">
+        <input id="userInput" type="text" placeholder="Type your question…" autocomplete="off" aria-label="Your question" />
+        <button type="submit" aria-label="Send"><span>Send</span></button>
+      </form>
+    </main>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

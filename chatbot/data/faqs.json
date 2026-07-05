@@ -1,0 +1,122 @@
+[
+  {
+    "question": "How do I reset my password?",
+    "answer": "You can reset your password by clicking the Forgot Password link on the login page and following the email instructions.",
+    "category": "account"
+  },
+  {
+    "question": "What is your refund policy?",
+    "answer": "We offer a full refund within 30 days of purchase if the product is unused and in its original packaging.",
+    "category": "billing"
+  },
+  {
+    "question": "How can I contact support?",
+    "answer": "You can reach our support team by emailing support@example.com or using the contact form on our website.",
+    "category": "support"
+  },
+  {
+    "question": "Do you offer a free trial?",
+    "answer": "Yes, we provide a 14-day free trial for new users so they can explore the platform before upgrading.",
+    "category": "plans"
+  },
+  {
+    "question": "How do I update my billing information?",
+    "answer": "Billing details can be updated from the Account Settings page under the Billing section.",
+    "category": "billing"
+  },
+  {
+    "question": "How long does shipping take?",
+    "answer": "Standard shipping usually takes 3 to 5 business days, while express shipping arrives in 1 to 2 business days.",
+    "category": "shipping"
+  },
+  {
+    "question": "Do you ship internationally?",
+    "answer": "Yes, we ship to over 40 countries. International orders usually arrive within 7 to 14 business days.",
+    "category": "shipping"
+  },
+  {
+    "question": "How can I track my order?",
+    "answer": "Once your order ships, you will receive a tracking number by email so you can follow its progress online.",
+    "category": "orders"
+  },
+  {
+    "question": "Can I change or cancel my order?",
+    "answer": "Orders can be changed or cancelled within 1 hour of placement by contacting support as soon as possible.",
+    "category": "orders"
+  },
+  {
+    "question": "What payment methods do you accept?",
+    "answer": "We accept Visa, Mastercard, American Express, PayPal, and Apple Pay for secure checkout.",
+    "category": "billing"
+  },
+  {
+    "question": "Is my payment information secure?",
+    "answer": "Yes. All payments are processed with encryption and we do not store your full card details on our servers.",
+    "category": "billing"
+  },
+  {
+    "question": "Do you offer a warranty?",
+    "answer": "Yes, all products include a 1-year manufacturer warranty covering defects in materials and workmanship.",
+    "category": "warranty"
+  },
+  {
+    "question": "How do I update my account details?",
+    "answer": "You can update your name, email, and address from the Account Settings page in your profile.",
+    "category": "account"
+  },
+  {
+    "question": "What is your return policy?",
+    "answer": "You can return most unused items within 30 days of delivery for a full refund, as long as they are in original condition.",
+    "category": "returns"
+  },
+  {
+    "question": "How do I contact customer support?",
+    "answer": "You can contact customer support through live chat, email at support@example.com, or phone at 1-800-555-0100.",
+    "category": "support"
+  },
+  {
+    "question": "Where is my order?",
+    "answer": "You can check the live tracking link in your shipment confirmation email to see the current delivery status.",
+    "category": "orders"
+  },
+  {
+    "question": "Can I get a refund for a damaged item?",
+    "answer": "Yes. If an item arrives damaged or defective, contact support within 7 days and we will help arrange a replacement or refund.",
+    "category": "returns"
+  },
+  {
+    "question": "How do I change my email address?",
+    "answer": "You can change your email address from the Account Settings page under your personal information section.",
+    "category": "account"
+  },
+  {
+    "question": "Do you have a mobile app?",
+    "answer": "Yes, our mobile app is available for both iOS and Android devices for easy account and order management.",
+    "category": "app"
+  },
+  {
+    "question": "How do I unsubscribe from emails?",
+    "answer": "You can unsubscribe from promotional emails by clicking the unsubscribe link at the bottom of any email we send.",
+    "category": "account"
+  },
+  {
+    "question": "Can I use more than one payment method?",
+    "answer": "For a single order, you can usually use one payment method at checkout. If you need help, contact support.",
+    "category": "billing"
+  },
+  {
+    "question": "How do I report a problem with my order?",
+    "answer": "If your order is incorrect, missing, or damaged, contact support right away and we will help resolve it quickly.",
+    "category": "orders"
+  },
+  {
+    "question": "What happens if I miss my delivery?",
+    "answer": "If a delivery is missed, the carrier will usually leave a notice or retry the shipment. You can also contact support for assistance.",
+    "category": "shipping"
+  },
+  {
+    "question": "How can I get a replacement product?",
+    "answer": "If your product is defective, contact support and we will help arrange a replacement as quickly as possible.",
+    "category": "warranty"
+  }
+]
